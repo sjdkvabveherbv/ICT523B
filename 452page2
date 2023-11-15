@@ -1,27 +1,150 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+  background-color: rgb(58, 211, 216); /* same as #ffcc99 */
+}
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:rgb(58, 211, 216); 
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #cc2525;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dfe092;
+  color: black;
+}
+</style>
 </head>
 <body>
-    <h1>welcome to watch</h1>
-    <h3>popular breakfast</h3>
-    <img src="https://cp1.douguo.com/upload/caiku/b/b/5/yuan_bbd81719593a81ffa8b2075d13c248e5.jpeg"width="300">
-    <br><img src="https://cp1.douguo.com/upload/caiku/b/0/1/yuan_b0af19157ba43ec9b7b639a26330d041.jpeg" width="300">
-    <br><img src="https://pic2.zhimg.com/v2-b8595554b0e7346870ce94aaa9b6d71e_r.jpg?source=1940ef5c" width="300">
-    <h3>popular lunch</h3>
-    <img src="https://p.yhres.com/meal/2016/04/29/1461929584608.jpg-q75hm" width="300">
-   <br> <img src="https://ts1.cn.mm.bing.net/th/id/R-C.33454c7ce559a4d1dd8521e285066bdc?rik=Wkunh21PYjMgRg&riu=http%3a%2f%2fimg.mp.itc.cn%2fupload%2f20160320%2fa13237b440ae4ab1a8eb1b6a6c9c4696.jpg&ehk=uw1Su8%2f1P534jq0EPaAz11%2bTQl7Mu4doa4sR1%2f66CjU%3d&risl=&pid=ImgRaw&r=0" width="300">
-    <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.7e347650e8cc4e809974a7eb3f164e8c?rik=vCzQkmBtD337Ng&riu=http%3a%2f%2fimage.shanghaiwow.com%3a1234%2fuploads%2fblogs%2fmulti-blog%2f20140826_1115133.jpg&ehk=XMu9RYZYtMuxrnVbi2vwSY%2f%2bVrwhyNlMZsFyicpmXzg%3d&risl=&pid=ImgRaw&r=0" width="300">
-      <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.8d58a804a3c8595b7bb6cb39a484fe32?rik=vS4Pi%2fFIZBZz7Q&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50100%2f0785.jpg_wh1200.jpg&ehk=1uiN8PetflSyNJfqVPRcsEG%2fNf2XrvVbAXz68jSWrCY%3d&risl=&pid=ImgRaw&r=0" width="300">
-      <h2>popular dinner</h2>
-      <img src="https://pic3.zhimg.com/v2-2ebe8f45e3c2d20c1b84889313493e8e_r.jpg" width="300">
-      <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.c1b6e1786636d5e40a0e89642a57bc9b?rik=I16xT1jl81s4tQ&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50073%2f6931.jpg_wh1200.jpg&ehk=B8N6lxXzGHcaNE9OVvHFDwHKTVbv01S4%2fV2ENAfPTvI%3d&risl=&pid=ImgRaw&r=0" width="300">
-      <br><img src="https://att2.citysbs.com/hangzhou/2020/03/01/21/middle_1024x1366-215552_v2_16141583070952182_1a82c8e1f60fd2ced325cf85951649ec.jpg" width="300">
-</body>
-</html>
+
+<div class="header">
+  <h1>452 project</h1>
+  
+</div>
+ <div class="nav">
+        <a href="https://lukehujunjie.github.io/ITC452/452project self introduction.html">self introduction</a>
+        <a class="active" href="https://lukehujunjie.github.io/ITC452/452projict%20picture.html">picture gallery</a>
+        <a href="https://lukehujunjie.github.io/ITC452/flow%20chart%20logo.html">flow chart</a>
+    </div>
+    <div class="main">
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  </style>
+
+ <style> 
+ h1 {text-align: center;} 
+ img { 
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ } 
+ h2 {text-align: center;} 
+ img { 
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ } 
+ .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+    }
+
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+</body> 
+<h1>welcome to watch</h1>
+<h3>popular breakfast</h3>
+<img src="https://cp1.douguo.com/upload/caiku/b/b/5/yuan_bbd81719593a81ffa8b2075d13c248e5.jpeg"width="300">
+<br><img src="https://cp1.douguo.com/upload/caiku/b/0/1/yuan_b0af19157ba43ec9b7b639a26330d041.jpeg" width="300">
+<br><img src="https://pic2.zhimg.com/v2-b8595554b0e7346870ce94aaa9b6d71e_r.jpg?source=1940ef5c" width="300">
+<h3>popular lunch</h3>
+<img src="https://ts1.cn.mm.bing.net/th/id/R-C.8e62b7f30bf819331c85d838f1907078?rik=wR6XJfrzMHNh8Q&riu=http%3a%2f%2fyouimg1.c-ctrip.com%2ftarget%2ftg%2f041%2f450%2f936%2f21ab64c246a545f69b5d05d6945785fc.jpg&ehk=5f4neUjuP8pleJTnCME6SCJpiVr7NsjMy%2b2PND9eVoQ%3d&risl=&pid=ImgRaw&r=0" width="300">
+<br> <img src="https://ts1.cn.mm.bing.net/th/id/R-C.33454c7ce559a4d1dd8521e285066bdc?rik=Wkunh21PYjMgRg&riu=http%3a%2f%2fimg.mp.itc.cn%2fupload%2f20160320%2fa13237b440ae4ab1a8eb1b6a6c9c4696.jpg&ehk=uw1Su8%2f1P534jq0EPaAz11%2bTQl7Mu4doa4sR1%2f66CjU%3d&risl=&pid=ImgRaw&r=0" width="300">
+<br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.7e347650e8cc4e809974a7eb3f164e8c?rik=vCzQkmBtD337Ng&riu=http%3a%2f%2fimage.shanghaiwow.com%3a1234%2fuploads%2fblogs%2fmulti-blog%2f20140826_1115133.jpg&ehk=XMu9RYZYtMuxrnVbi2vwSY%2f%2bVrwhyNlMZsFyicpmXzg%3d&risl=&pid=ImgRaw&r=0" width="300">
+  <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.8d58a804a3c8595b7bb6cb39a484fe32?rik=vS4Pi%2fFIZBZz7Q&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50100%2f0785.jpg_wh1200.jpg&ehk=1uiN8PetflSyNJfqVPRcsEG%2fNf2XrvVbAXz68jSWrCY%3d&risl=&pid=ImgRaw&r=0" width="300">
+  <h2>popular dinner</h2>
+  <img src="https://pic3.zhimg.com/v2-2ebe8f45e3c2d20c1b84889313493e8e_r.jpg" width="300">
+  <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.c1b6e1786636d5e40a0e89642a57bc9b?rik=I16xT1jl81s4tQ&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50073%2f6931.jpg_wh1200.jpg&ehk=B8N6lxXzGHcaNE9OVvHFDwHKTVbv01S4%2fV2ENAfPTvI%3d&risl=&pid=ImgRaw&r=0" width="300">
+  <br><img src="https://ts1.cn.mm.bing.net/th/id/R-C.d8e451a51346ec628efb6909b2ebacc1?rik=kjzXKSqGdqqTGQ&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50001%2f3094.jpg_wh1200.jpg&ehk=66TrM0kDTCZAmLg3btMJqEk9FiSN4yw07qygI8DaUb4%3d&risl=&pid=ImgRaw&r=0" width="300">
+<footer style=text-align:center>Page picture gallery
+</footer><!--This is footnote-->
+<footer style=text-align:center>The Organizer, Addison personl web</footer><!--This is footnote-->
+  <footer style=text-align:center>Copyright © 2022-2023 </footer><!--This is footnote-->
+  </html> 
