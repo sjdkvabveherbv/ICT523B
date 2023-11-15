@@ -55,11 +55,11 @@ body {
   <h1>452 project</h1>
   
 </div>
- <div class="nav">
-        <a href="https://lukehujunjie.github.io/ITC452/452project self introduction.html">self introduction</a>
-        <a class="active" href="https://lukehujunjie.github.io/ITC452/452projict%20picture.html">picture gallery</a>
-        <a href="https://lukehujunjie.github.io/ITC452/flow%20chart%20logo.html">flow chart</a>
-    </div>
+<div class="nav">
+       <a href="https://sjdkvabveherbv.github.io/ICT523B/452page1.html">self introduction</a>
+       <a class="active" href="https://sjdkvabveherbv.github.io/ICT523B/452page2.html">picture gallery</a>
+       <a href="https://sjdkvabveherbv.github.io/ICT523B/452page3.html">flow chart</a>
+   </div>
     <div class="main">
 <style>
   ul {
