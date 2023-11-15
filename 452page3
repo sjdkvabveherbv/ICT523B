@@ -1,13 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+  background-color: rgb(58, 211, 216); /* same as #ffcc99 */
+}
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:rgb(58, 211, 216); 
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #cc2525;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dfe092;
+  color: black;
+}
+</style>
 </head>
 <body>
-    <h1>My Process</h1>
-    <img src="452picture.png">
-</body>
-</html>
+
+<div class="header">
+  <h1>452 project</h1>
+  
+</div>
+ <div class="nav">
+        <a href="https://lukehujunjie.github.io/ITC452/452project self introduction.html">self introduction</a>
+        <a class="active" href="https://lukehujunjie.github.io/ITC452/452projict%20picture.html">picture gallery</a>
+        <a href="https://lukehujunjie.github.io/ITC452/flow%20chart%20logo.html">flow chart</a>
+    </div>
+    <div class="main">
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  </style>
+
+ <style> 
+ h1 {text-align: center;} 
+ img { 
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ } 
+ .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+    }
+
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+    }
+
+</style>
+<h1>Process
+</h1>
+
+<center> <img border="0" src="https://github.com/sjdkvabveherbv/ICT523B/blob/main/process.png" ></center>
+
+  <footer style=text-align:center>Page process
+  </footer><!--This is footnote-->
+  <footer style=text-align:center>The Organizer, Addison personl web</footer><!--This is footnote-->
+    <footer style=text-align:center>Copyright © 2022-2023 </footer><!--This is footnote-->
+  </body> 
+  </html> 
