@@ -56,9 +56,9 @@ body {
   
 </div>
  <div class="nav">
-        <a href="https://lukehujunjie.github.io/ITC452/452project self introduction.html">self introduction</a>
-        <a class="active" href="https://lukehujunjie.github.io/ITC452/452projict%20picture.html">picture gallery</a>
-        <a href="https://lukehujunjie.github.io/ITC452/flow%20chart%20logo.html">flow chart</a>
+        <a href="https://sjdkvabveherbv.github.io/ICT523B/452page1.html">self introduction</a>
+        <a class="active" href="https://sjdkvabveherbv.github.io/ICT523B/452page2.html">picture gallery</a>
+        <a href="https://sjdkvabveherbv.github.io/ICT523B/452page3.html">flow chart</a>
     </div>
     <div class="main">
 <style>
@@ -132,7 +132,7 @@ body {
  
   <!-- This is my Image and Logo- --> 
  <h2>Profile Picture</h2> 
-<img src="https://github.com/sjdkvabveherbv/ICT523B/blob/main/1.jpg">
+<img src="https://sjdkvabveherbv.github.io/ICT523B/1.jpg">
  
   <!-- This is my Self-Introduction- --> 
  <h3>Introduction Myself</h3> 
@@ -200,4 +200,4 @@ table
       <footer style=text-align:center>The Organizer, Addison personl web</footer><!--This is footnote-->
         <footer style=text-align:center>Copyright © 2022-2023</footer><!--This is footnote-->
  </body> 
- </html> 
+ </html>
